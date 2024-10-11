@@ -38,6 +38,7 @@ public class Walker {
     }
   }
 
+  @SuppressWarnings("unchecked")
   public Memento createMemento() {
     Memento memento = new Memento();
 
@@ -48,6 +49,7 @@ public class Walker {
     return memento;
   }
 
+  @SuppressWarnings("unchecked")
   public void restoreMemento(Memento memento) {
     this.currentX = memento.x;
     this.currentY = memento.y;
