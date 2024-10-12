@@ -14,7 +14,7 @@ public class MainEntry {
     line1.setStartPoint(pt1).setEndPoint(pt2);
     System.out.println(line1.draw());
 
-    // Line lineCopy = (Line) line1.copy();
+    // Line lineCopy = (Line) line1.copy();s
 
     Point pt3 = new Point();
     pt3.setX(100).setY(100);
